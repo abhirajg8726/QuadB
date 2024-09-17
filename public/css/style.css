@@ -1,0 +1,76 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #212529;
+    color: #ffffff;
+    margin: 0;
+    padding: 0;
+  }
+  
+  header {
+    text-align: center;
+    padding: 20px;
+    background-color: #2c3034;
+  }
+  
+  h1 {
+    color: #00ffd9;
+  }
+  
+  .price-container {
+    font-size: 2.5em;
+    margin: 10px 0;
+  }
+  
+  .time-stats {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    font-size: 0.9em;
+  }
+  
+  table {
+    width: 80%;
+    margin: 20px auto;
+    border-collapse: collapse;
+  }
+  
+  th, td {
+    border: 1px solid #444;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  thead {
+    background-color: #3a3f44;
+  }
+  
+  tbody tr:nth-child(odd) {
+    background-color: #2c3034;
+  }
+  
+  tbody tr:nth-child(even) {
+    background-color: #3a3f44;
+  }
+  
+  th {
+    background-color: #1e2125;
+    color: #00ffd9;
+  }
+  
+  .current-price {
+    color: #00ffd9;
+    font-size: 2.5em;
+  }
+  
+  .buy-sell {
+    color: #aaa;
+  }
+  
+  .red {
+    color: #ff4d4f;
+  }
+  
+  .green {
+    color: #4caf50;
+  }
+  
